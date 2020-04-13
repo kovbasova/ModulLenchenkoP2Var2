@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище DAIModelContainer" CdmEntityContainer="DAIEntities">
+    <EntitySetMapping Name="DaiTable">
+      <EntityTypeMapping TypeName="DAIModel.DaiTable">
+        <MappingFragment StoreEntitySet="DaiTable">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Owner_Name" ColumnName="Owner Name" />
+          <ScalarProperty Name="Car_Brand" ColumnName="Car Brand" />
+          <ScalarProperty Name="Car_Number" ColumnName="Car Number" />
+          <ScalarProperty Name="Colour" ColumnName="Colour" />
+          <ScalarProperty Name="Yaer_of_Manufacture" ColumnName="Yaer of Manufacture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
